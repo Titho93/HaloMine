@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 20px;
+  color: green;
+}
+
+.container{
+  width: 600px;
+  margin: 50px auto;
+  text-align: left;
+  background-image: url(../img/sfondo.jpeg);
+  background-size: cover;
+  padding: 100px;
+  border: 5px solid black;
+}
+
+label {
+  color: lightgreen;
+  font-size: 20px;
+}
+
+select {
+  color: Black;
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+button {
+  background-color: red;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+.container #lifes {
+  color: lightgreen;
+  font-size: 20px;
+}
+
+#message {
+  color: red;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bomb {
+  background-color: red !important;
+  background-image: url(../img/bomb.webp);
+}
+
+.revealed {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hideBomb {
+  background-color: lightcoral;
+}
+
+.safe {
+  background-color: green;
+}
+
+.unrevealed {
+  background-color: white !important;
+}

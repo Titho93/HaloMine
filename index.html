@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/style.css">
+<head>
+    <title>HaloMine</title>
+
+</head>
+<body>
+
+    <h1>HaloMine</h1>
+    <div class="container">
+        <label for="difficulty">Select Difficulty:</label> <br>
+        <select id="difficulty">
+            <option value="1">Easy (10x10)</option>
+            <option value="2">Medium (9x9)</option>
+            <option value="3">Hard (7x7)</option>
+            <option value="4">Impossible (6x5)</option>
+        </select>
+        <button onclick="startGame()">Start Game</button>
+        <div id="lifes"></div>
+        <div id="message"></div>
+        <table id="table"></table>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
